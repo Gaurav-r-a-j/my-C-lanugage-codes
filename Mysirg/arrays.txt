@@ -1,0 +1,15 @@
+Arrays is a linear collection of similar elements
+Array is also known as Subscript variable
+Array is a group of variable with index starting from 0 
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+Identifiers = word banana categroises a/c to their meaning
+
+instructions = sentence banana( 4 types)
+
+
+progarm statements are called instructions
+types of instructions
+- data type Declaration instruction
+- input output instruction
+- Arithmetic instruction
+- Control Instruction
+
+
+Those word which are keywords also is called primitive data type
+
+= is assign, read it as assign
+
+printf(),scanf() is not a keywords it is a predefined function
+getch() is an input instruction to get only one character not a screen freeze function
+
+gotoxy() = 25 lines and 80 characters we have on dos so to get the statement in the middle we are using gotoxy(a,b); 
+a and b are coordinates
+a = horizontal(80)
+b = vertical(25)
+
+
+
+
+Operators groups----( according to predence)
+1- unary Operators(need only one operand) --> ex + - ++ ++ sizeof()
+2- Arithmetic Operators(*/% -+) L to R 
+3- bitwise Operators(&(bitwise AND), |(OR), ^(XOR), ~(NOT), >>(RIGHT SHIFT), <<(LEFT SHIFT))
+4- relational Operators (< ,> , <= ,>= ,, == ,!=) L TO R
+ex - x = 5>4>3 gives false as first we take 5>4 and the result we get is 1 then we have 1>3 which gives 0(false)
+5- Logical Operators(!(NOT), &&(AND) ,||(OR))
+6- conditional Operators
+7- Assignment Operators
+
+exception ( post increment has less priority than everyone)
+
+real(means point values) constant considered as double so if you print sizeof(3.59) it gives 8
+char is also considered as int a/c to ASCII so char('a')  and sizeof(a) gives 2 not 1  ( watch video no. 14 for more ore l-5 p-3)
+
+*******completed till l-5 p-7*************(19-04-2022)
+
+control instructions------ 
+Decision control instruction -(if, else conditional operator(conditon?true:false;))
+Iterative cotrol instruction
+switch case control instruction
+goto control instruction
+
+
+//conditional operator is also  used as selctor assignment(ex = x>y?x:y;  for greater no.)
+
+
+*******l-7, p-1******
+
+break = The keyword break can be used in loop body or in switch body
+
+
+//switch case only contain int or character constant we cannot use real constant in switch cases
+
+
+
+
+
+
+
+//funcitons in c (l-9 p1)
+piece of code given some name and can be call anywhere
+
+//jab function call hota hai tabhi ram leta hai aur apna kaam karke chala jaata hai 
+//function is used for better memory utilization
+//one funciton can call other funciton too
+
+
+/progarm must have at least one funciton
+funciton names must be unique
+//funciton is an operation once defined can be used many Times 
+//One function in the program must be main 
+funciton conusmes memory only when it is invoked and relaeaed from RAM as soon as it finishes its job.
+
+//Benefits of funciton
+Modularization- splitting of bigger task inot smaller sub tasks
+Easy to read-
+EAsy to debug-
+EAsy to modify -
+Avoids rewriting of same code over and over Bettwr meory untilization
+
+//return wiill only return one value if you give multiple value then it will take the last value as return 
+antyhing written after return will not execute

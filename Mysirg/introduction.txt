@@ -1,0 +1,58 @@
+Oracle is written in c
+core libraries of androids are written in c
+mysql is written in c 
+almost every device driver is written in c
+major part of web browser in written in c
+unix operating system is developed in c
+
+Martin Richards maded a language called as BCPL (Baic bombined Programming language) in 1966
+
+then ken thompson in 1969 developed B language and also made unix operating system 
+
+Dennis Ritchie in 1972 at AT & T's Bell Labs developed C language also the co-developer of unix operating system
+
+
+
+----Fundamental Temonologies---
+computer is an electronic device that takes input,process it and gives output.
+
+electronic = less power consume
+electrical = more power consume
+
+1gb = 1024 mb
+1gb = 1024 * 1024 kb
+1gb = 1024 * 1024 * 1024 bytes
+1gb = 1024 * 1024 * 1024 * 8 bits
+
+
+
+Hardware----
+Hardware is a comprehensive design
+
+file-----
+file is a data bundle (collection of information)
+
+
+.exe file means software
+
+application software = for user 
+system software = for system
+
+
+program -----
+set of instructions is called program
+
+process---
+Active state of a program is called process
+
+
+
+operating software---
+it is a system software 
+ex = dos , windows , sloaris, macintosh . linux
+it provides interface between user and machine
+it does process management, memory management , file managements
+
+
+comliet convert file in obj file or object file then send it to libraries
+watch video no3 for better understanding

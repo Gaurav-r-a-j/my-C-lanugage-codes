@@ -1,0 +1,13 @@
+Function calling itself is called Recursion
+
+Whenever it calls it makes a copy of itself (watch video again l-10 p-1)
+
+
+
+//function jitni baar call hoga utni baar uski copy banegi
+
+return values always goes to previous calls and the value goes directly to the function
+
+
+//memory releses one the return value received
+
