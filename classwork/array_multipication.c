@@ -32,7 +32,7 @@
 //             {
 //                 sum +=mat1[i][k] * mat3[k][j];
 //             }
-                    // mat3[i][j]=sum;
+// mat3[i][j]=sum;
 
 //         }
 
@@ -63,89 +63,79 @@ int main()
     // ---------Taking the matrix as input from the user-----------
     printf("Enter rows and columns for the first matrix: ");
     scanf("%d %d", &m, &n);
-    printf("Please enter first matrix:\n");
-    for (i = 0; i < m; i++)
-    {
-        for (j = 0; j < n; j++)
-        {
-            scanf("%d", &a[i][j]);
-        }
-    }
-
     printf("Enter rows and columns for the second matrix: ");
     scanf("%d %d", &p, &q);
-    printf("Please enter second matrix:\n");
 
-    for (i = 0; i < p; i++)
+    if (n == p)
     {
-        for (j = 0; j < q; j++)
+    printf("Please enter first matrix:\n");
+        for (i = 0; i < m; i++)
         {
-            scanf("%d", &b[i][j]);
+            for (j = 0; j < n; j++)
+            {
+                scanf("%d", &a[i][j]);
+            }
         }
-    }
 
-    // ---------Printing the matrix-------------
-    printf("Your first matrix is:\n");
-    for (i = 0; i < m; i++)
-    {
-        for (j = 0; j < n; j++)
+        printf("Please enter second matrix:\n");
+
+        for (i = 0; i < p; i++)
         {
-            printf("%d\t", a[i][j]);
+            for (j = 0; j < q; j++)
+            {
+                scanf("%d", &b[i][j]);
+            }
         }
-        printf("\n");
-    }
 
-    printf("Your second matrix is:\n");
-    for (i = 0; i < p; i++)
-    {
-        for (j = 0; j < q; j++)
+        // ---------Printing the matrix-------------
+        printf("Your first matrix is:\n");
+        for (i = 0; i < m; i++)
         {
-            printf("%d\t", b[i][j]);
+            for (j = 0; j < n; j++)
+            {
+                printf("%d\t", a[i][j]);
+            }
+            printf("\n");
         }
-        printf("\n");
 
-    }
-
-    // ---------code for multiplication-------- 
-    if (n!=p)
-    {
-        printf("Can't multiply these matrix");
-    }
-
-    else{
-        for ( i = 0; i < m; i++)
+        printf("Your second matrix is:\n");
+        for (i = 0; i < p; i++)
         {
-            for ( j = 0; j < q; j++)
+            for (j = 0; j < q; j++)
+            {
+                printf("%d\t", b[i][j]);
+            }
+            printf("\n");
+        }
+
+       
+        for (i = 0; i < m; i++)
+        {
+            for (j = 0; j < q; j++)
             {
                 sum = 0;
-                for ( k = 0; k < n; k++)
+                for (k = 0; k < n; k++)
                 {
                     sum = sum + a[i][k] * b[k][j];
                 }
-                c[i][j]=sum;
-                
+                c[i][j] = sum;
             }
-            
         }
-        
 
-    }
-
-    printf("Matrix after multiplication is:\n");
-    for ( i = 0; i < m; i++)
-    {
-        for ( j = 0; j < q; j++)
+        printf("Matrix after multiplication is:\n");
+        for (i = 0; i < m; i++)
         {
-            printf("%d\t",c[i][j]);
+            for (j = 0; j < q; j++)
+            {
+                printf("%d\t", c[i][j]);
+            }
+            printf("\n");
         }
-        printf("\n");
-        
     }
-    
-    
 
-    
-    
+    else{
+        printf("Can't multiply the matrix");
+    }
 
     return 0;
 }

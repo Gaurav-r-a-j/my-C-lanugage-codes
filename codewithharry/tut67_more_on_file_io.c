@@ -9,7 +9,7 @@
 // a+ = reading and appending
 
 
-//There are various function provided by C standar library to read and write a file . character by character or in the form of a fixed length string
+//There are various function provided by C standard library to read and write a file . character by character or in the form of a fixed length string
 
 // 1= fputc
 /*

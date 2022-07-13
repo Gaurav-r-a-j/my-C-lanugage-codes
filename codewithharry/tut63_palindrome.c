@@ -1,4 +1,4 @@
-// palindrom = ulta sidha ek samaan
+// palindrome = ulta sidha ek samaan
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -7,7 +7,7 @@ int isPalindrome(int num)
 {
     int reversed = 0; //
     // reverse the number
-    int originalNumber = num;//we store num in this because num chage ho raha hai niche 0 ban ja raha hai while loop me isilye
+    int originalNumber = num;//we store num in this because num chagne ho raha hai niche 0 ban ja raha hai while loop me isilye
     while (num != 0)
     {
         reversed = reversed * 10 + num % 10;
